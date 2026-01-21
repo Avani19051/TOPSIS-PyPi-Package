@@ -82,7 +82,7 @@ flowchart LR
 ## 📦 Installation
 
 ```bash
-pip install topsis-swastik-102303585
+pip install topsis-avani
 ```
 
 ---
