@@ -48,19 +48,23 @@ This balance helps in generating a rational and interpretable ranking.
 | Data Analytics | Comparing models or strategies |
 
 ---
-## TOPSIS Algorithm Flow
+
+## 🔄 TOPSIS Algorithm Flow
 
 ```mermaid
 flowchart TD
     A[Decision Matrix] --> B[Normalization]
     B --> C[Apply Weights]
-    C --> D[Determine Ideal Best]
-    C --> E[Determine Ideal Worst]
+    C --> D[Ideal Best Solution]
+    C --> E[Ideal Worst Solution]
     D --> F[Distance from Ideal Best]
     E --> G[Distance from Ideal Worst]
-    F --> H[TOPSIS Score Calculation]
+    F --> H[TOPSIS Score]
     G --> H
     H --> I[Final Ranking]
+```
+
+---
 
 ## 🧠 Program Workflow
 
